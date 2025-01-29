@@ -59,6 +59,43 @@
                 </tr>
               </tbody>
             </table>
+
+
+            <table style="width:100%; border:0px; border-spacing:0px; border-collapse:separate; margin-right:auto; margin-left:auto;">
+              <tbody>
+                <tr onmouseout="hiascend_stop()" onmouseover="hiascend_start()">
+                  <td style="padding:20px; width:25%; vertical-align:middle">
+                    <div class="one">
+                      <img src="images/PIP.jpg" width="150%">
+                    </div>
+                    <script type="text/javascript">
+                      function hiascend_start(){
+                        document.getElementById('smerf_image').style.opacity = "1";
+                      }
+                      function hiascend_stop(){
+                        document.getElementById('smerf_image').style.opacity = "0";
+                      }
+                      hiascend_stop()
+                    </script>
+                  </td>
+                  <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://arxiv.org/abs/2501.15278">
+                      <span class="title">PIP: Perturbation-based Iterative Pruning for Large Language Models</span>
+                    </a>
+                    <br>
+                    Yi Cao, <strong>Wei-Jie Xu</strong>, Yucheng Shen, Weijie Shi, Chi-Min Chan and Jiajie Xu
+                    <br>
+                    Nov.2024-Jan.2025
+                    <br>
+                    arXiv:2501.15278
+                    <br>
+                    The rapid increase in the parameter counts of Large Language Models (LLMs), reaching billions or even trillions, presents significant challenges for their practical deployment, particularly in resourceconstrained environments. 
+                    To ease this issue, we propose PIP (Perturbation-based Iterative Pruning), a novel double-view structured pruning method to optimize LLMs, which combines information from two different views: the unperturbed view and the perturbed view. 
+                    With the calculation of gradient differences, PIP iteratively prunes those that struggle to distinguish between these two views.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
             
 
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -108,7 +145,7 @@
                       <span class="title">MindSpore code migration - Memorize, factorize, or be naive: Learning optimal feature interaction methods for CTR Prediction</span>
                     </a>
                     <br>
-                      <strong>Weijie Xu*</strong>, Runzhi Yang*, Yuxuan Yang* and <a href="https://lijuntaopku.github.io/">Juntao Li</a>
+                      <strong>Wei-Jie  Xu*</strong>, Runzhi Yang*, Yuxuan Yang* and <a href="https://lijuntaopku.github.io/">Juntao Li</a>
                   </td>
                 </tr>
                 
