@@ -222,3 +222,26 @@ span.highlight {
     height: auto;
   }
 }
+
+/* 奖项部分样式 */
+.award-section {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.award-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.award-container {
+  margin-bottom: 20px;
+}
+
+.award-info {
+  font-size: 16px;
+  line-height: 1.6;
+}
