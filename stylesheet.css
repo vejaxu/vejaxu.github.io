@@ -149,7 +149,7 @@ span.highlight {
 }
 
 .research-intro {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -191,7 +191,7 @@ span.highlight {
 }
 
 .paper-title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   display: block;
   margin-bottom: 10px;
@@ -242,6 +242,32 @@ span.highlight {
 }
 
 .award-info {
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* News Section */
+.news-section {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.news-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.news-container {
+  border: 1px solid #ddd; /* 添加边框以增强视觉效果 */
+  padding: 10px;
+  border-radius: 5px; /* 轻微圆角 */
+  background-color: #f9f9f9;
+}
+
+.news-info {
+  font-size: 14px;
   line-height: 1.6;
 }
