@@ -1,90 +1,35 @@
-/* latin-ext */
+/* 引入 Lato 字体 */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), 
+       url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), 
+       url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+}
 @font-face {
   font-family: 'Lato';
   font-style: italic;
   font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: local('Lato Italic'), local('Lato-Italic'), 
+       url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
 }
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {W
-  font-family: 'Lato';
-  font-style: italic;W
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
 @font-face {
   font-family: 'Lato';
   font-style: italic;
   font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), 
+       url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
 }
 
-a {
-  color: #1772d0;
-  text-decoration: none;
-}
-
-a:focus,
-a:hover {
-  color: #f09228;
-  text-decoration: none;
-}
-
-body,
-td,
-th,
-tr,
-p,
-a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-strong {
+/* 通用样式 */
+body, td, th, tr, p, a, strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
 }
@@ -92,51 +37,31 @@ strong {
 h2 {
   margin: 0;
   font-weight: normal;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
 }
 
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: #f09228;
+}
+
+/* 标题样式 */
+.name {
+  padding-top: 20px;
+  margin: 0;
+  font-size: 32px;
+}
+
 .papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
 }
 
-.name {
-  padding-top: 20px;
-  margin: 0;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
-}
-
-.one {
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-
-.two {
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-span.highlight {
-  background-color: #ffffd0;
-}
-
-/* 研究部分的整体样式 */
+/* 研究部分 */
 .research-section {
-  width: 100%;
   max-width: 1000px;
   margin: auto;
   padding: 20px;
@@ -154,7 +79,14 @@ span.highlight {
   margin-bottom: 30px;
 }
 
-/* 论文内容布局 */
+.contact-info {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+  color: #ff6600;
+  font-size: 1.2em;
+}
+
+/* 论文部分 */
 .paper-container {
   display: flex;
   align-items: center;
@@ -166,15 +98,12 @@ span.highlight {
   background-color: #f9f9f9;
 }
 
-/* 论文图片容器 */
 .paper-image {
   flex: 1;
   max-width: 30%;
   display: flex;
   align-items: center;
 }
-
-/* 论文图片 */
 .paper-image img {
   width: 100%;
   height: auto;
@@ -182,7 +111,6 @@ span.highlight {
   border-radius: 8px;
 }
 
-/* 论文文本信息 */
 .paper-info {
   flex: 2;
   display: flex;
@@ -193,12 +121,10 @@ span.highlight {
 .paper-title {
   font-size: 16px;
   font-weight: bold;
-  display: block;
   margin-bottom: 10px;
 }
 
-.paper-authors,
-.paper-meta {
+.paper-authors, .paper-meta {
   font-size: 14px;
   color: #666;
   margin-bottom: 10px;
@@ -210,22 +136,20 @@ span.highlight {
   text-align: justify;
 }
 
-/* 响应式布局：小屏幕时变成垂直排列 */
+/* 响应式布局 */
 @media (max-width: 768px) {
   .paper-container {
     flex-direction: column;
     text-align: center;
   }
-
   .paper-image {
     max-width: 100%;
     height: auto;
   }
 }
 
-/* 奖项部分样式 */
+/* 奖项部分 */
 .award-section {
-  width: 100%;
   max-width: 1000px;
   margin: auto;
   padding: 20px;
@@ -246,9 +170,8 @@ span.highlight {
   line-height: 1.6;
 }
 
-/* News Section */
+/* 新闻部分 */
 .news-section {
-  width: 100%;
   max-width: 1000px;
   margin: auto;
   padding: 20px;
@@ -261,13 +184,33 @@ span.highlight {
 }
 
 .news-container {
-  border: 1px solid #ddd; /* 添加边框以增强视觉效果 */
+  border: 1px solid #ddd;
   padding: 10px;
-  border-radius: 5px; /* 轻微圆角 */
+  border-radius: 5px;
   background-color: #f9f9f9;
 }
 
 .news-info {
   font-size: 14px;
   line-height: 1.6;
+}
+
+/* 其他 */
+.one, .two {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.two {
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffd0;
 }
