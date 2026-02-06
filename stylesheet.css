@@ -225,3 +225,26 @@ a:hover, a:focus {
     max-width: 100%;
   }
 }
+
+/* 子标题样式 */
+.subcategory-title {
+    font-size: 1.25rem;
+    color: #555;
+    margin: 30px 0 15px 0;
+    padding-left: 10px;
+    border-left: 4px solid #007bff; /* 加一个左边框的小装饰，颜色可以根据你的主题调整 */
+    font-family: 'Inter', sans-serif; /* 保持和你个人主页一致的字体 */
+}
+
+/* 板块间距控制 */
+.research-category {
+    margin-bottom: 40px;
+}
+
+/* 确保移动端也有良好的间距 */
+@media (max-width: 768px) {
+    .subcategory-title {
+        font-size: 1.1rem;
+        margin-top: 20px;
+    }
+}
