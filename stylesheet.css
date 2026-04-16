@@ -31,9 +31,9 @@ a:focus {
    Layout
    ================================================== */
 .main-container {
-  max-width: 820px;
+  max-width: 1120px;
   margin: auto;
-  padding: 24px;
+  padding: 24px 32px;
 }
 
 /* ==================================================
